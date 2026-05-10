@@ -160,6 +160,13 @@ body {
 .contact-info dd {
   font-size: 16px;
 }
+.contact-info a {
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+.contact-info a:hover {
+  text-decoration: underline;
+}
 
 /* Footer */
 .site-footer {
