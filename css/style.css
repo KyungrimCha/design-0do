@@ -69,8 +69,24 @@ body {
 .intro h1 {
   font-size: clamp(56px, 9vw, 112px);
   font-weight: 500;
-  line-height: 1;
+  line-height: 1.1;
   letter-spacing: -0.04em;
+  min-height: 1.1em;
+}
+.hero-caret {
+  display: inline-block;
+  width: 0.06em;
+  height: 0.85em;
+  margin-left: 0.04em;
+  vertical-align: -0.1em;
+  background: currentColor;
+  animation: caretBlink 1s step-end infinite;
+}
+@keyframes caretBlink {
+  50% { opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-caret { display: none; }
 }
 .intro-sub {
   margin-top: 20px;
