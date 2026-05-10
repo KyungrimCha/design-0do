@@ -64,7 +64,7 @@ body {
 
 /* Intro */
 .intro {
-  padding: 200px 0 160px;
+  padding: 140px 0 96px;
 }
 .intro h1 {
   font-size: clamp(56px, 9vw, 112px);
@@ -81,7 +81,7 @@ body {
 
 /* Section */
 .section {
-  padding: 160px 0;
+  padding: 88px 0;
 }
 .section-label {
   font-size: 13px;
@@ -125,7 +125,7 @@ body {
   .logo { font-size: 16px; }
   .site-nav ul { gap: 20px; }
   .site-nav a { font-size: 13px; }
-  .intro { padding: 120px 0 96px; }
-  .section { padding: 96px 0; }
+  .intro { padding: 88px 0 64px; }
+  .section { padding: 56px 0; }
   .section-body { font-size: 16px; }
 }
