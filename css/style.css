@@ -97,6 +97,17 @@ body {
   max-width: 56ch;
 }
 
+/* Works grid — 3x3, 3:4 portrait, 모바일에서도 3열 유지 */
+.works-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+}
+.works-item {
+  aspect-ratio: 3 / 4;
+  background: #ececec;
+}
+
 /* Footer */
 .site-footer {
   padding: 64px 0 80px;
