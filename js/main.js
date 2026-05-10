@@ -1,16 +1,15 @@
 const phrases = [
-  "design 공도",
+  "공도",
   "空渡",
   "gongdo",
   "0do",
   "0°",
-  "공도",
 ];
 
-const TYPE_MS = 90;
-const DELETE_MS = 50;
-const HOLD_MS = 1400;
-const GAP_MS = 320;
+const TYPE_MS = 140;
+const DELETE_MS = 80;
+const HOLD_MS = 2000;
+const GAP_MS = 420;
 
 const typer = document.getElementById("hero-typer");
 
