@@ -143,14 +143,35 @@ body {
   max-width: 56ch;
 }
 
+/* Contact info — 라벨/값 정렬 */
+.contact-info {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: 88px 1fr;
+  row-gap: 12px;
+  column-gap: 24px;
+}
+.contact-info dt {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-muted);
+  padding-top: 2px;
+}
+.contact-info dd {
+  font-size: 16px;
+}
+
 /* Footer */
 .site-footer {
   padding: 64px 0 80px;
 }
-.site-footer small {
+.site-footer p {
   font-size: 12px;
   color: var(--color-muted);
   letter-spacing: 0;
+}
+.site-footer p + p {
+  margin-top: 4px;
 }
 
 /* Responsive */
